@@ -14,6 +14,17 @@ set an email address that will be associated with each history marker
 set automatic command line coloring for Git for easy reviewing
 
 
+SETUP & INIT
+	
+	Configuring user information, initializing and cloning repositories
+	
+		git init
+	initialize an existing directory as a Git repository
+
+
+		git clone [url]
+	retrieve an entire repository from a hosted location via URL
+
 
 ### Reset 
 
