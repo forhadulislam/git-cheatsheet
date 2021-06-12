@@ -1,6 +1,6 @@
 ## Git Cheatsheet
 
-Most important Git commands for daily life of a developer.
+Most important Git commands for daily life of a developer who uses Git.
 
 ### SETUP
 
