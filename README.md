@@ -1,5 +1,7 @@
 ## Git Cheatsheet
 
+Most important Git commands for daily life of a developer.
+
 ### SETUP
 
 Configuring user information used across all local repositories
