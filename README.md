@@ -32,7 +32,6 @@ retrieve an entire repository from a hosted location via URL
 
 Working with snapshots and the Git staging area	
 	
-	
 	git status
 show modified files in working directory, staged for your next commit
 
