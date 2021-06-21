@@ -95,7 +95,7 @@ show the diff of what is in branchA that is not in branchB
 show any object in Git in human-readable format
 
 
-### Reset 
+### Reset
 
     git fetch --all  
     git reset --hard origin/master
