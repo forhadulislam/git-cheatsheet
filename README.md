@@ -6,10 +6,12 @@ Most important and frequently used Git commands for daily life of a developer wh
 
 Configuring user information used across all local repositories
 
-        git config --global user.name “[firstname lastname]”
+	git config --global user.name “[firstname lastname]”
+	
 set a name that is identifiable for credit when review version history
 
-        git config --global user.email “[valid-email]”
+	git config --global user.email “[valid-email]”
+	
 set an email address that will be associated with each history marker        
 
         git config --global color.ui auto        
