@@ -111,6 +111,21 @@ change an existing file path and stage the move
 show all commit logs with indication of any paths that moved
 
 
+
+IGNORING PATTERNS
+
+Preventing unintentional staging or commiting of files
+
+	logs/
+	*.notes
+	pattern*/
+	Save a file with desired paterns as .gitignore with either direct string matches or wildcard globs.
+
+
+	git config --global core.excludesfile [file]
+system wide ignore patern for all local repositories
+
+
 ### Reset
 
     git fetch --all  
