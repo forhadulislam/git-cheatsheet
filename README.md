@@ -112,7 +112,7 @@ show all commit logs with indication of any paths that moved
 
 
 
-IGNORING PATTERNS
+### IGNORING PATTERNS
 
 Preventing unintentional staging or commiting of files
 
@@ -124,6 +124,27 @@ Preventing unintentional staging or commiting of files
 
 	git config --global core.excludesfile [file]
 system wide ignore patern for all local repositories
+
+### SHARE & UPDATE
+
+Retrieving updates from another repository and updating local repos
+
+	git remote add [alias] [url]
+add a git URL as an alias
+	
+	git fetch [alias]
+fetch down all the branches from that Git remote
+	
+	git merge [alias]/[branch]
+merge a remote branch into your current branch to bring it up to date
+	
+	git push [alias] [branch]
+Transmit local branch commits to the remote repository branch
+	
+	git pull
+fetch and merge any commits from the tracking remote branch
+
+
 
 
 ### Reset
