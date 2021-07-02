@@ -111,7 +111,6 @@ change an existing file path and stage the move
 show all commit logs with indication of any paths that moved
 
 
-
 ### IGNORING PATTERNS
 
 Preventing unintentional staging or commiting of files
