@@ -163,16 +163,16 @@ clear staging area, rewrite working tree from specified commit
 Temporarily store modified, tracked files in order to change branches
 
 	git stash
-	Save modified and staged changes
+Save modified and staged changes
 	
 	git stash list
-	list stack-order of stashed file changes
+list stack-order of stashed file changes
 	
 	git stash pop
-	write working from top of stash stack
+write working from top of stash stack
 	
 	git stash drop
-	discard the changes from top of stash stack
+discard the changes from top of stash stack
 
 
 
