@@ -54,7 +54,6 @@ commit your staged content as a new commit snapshot
 
 
 
-
 ### BRANCH & MERGE
 
 Isolating work in branches, changing context, and integrating changes
