@@ -52,7 +52,6 @@ diff of what is staged but not yet commited
 commit your staged content as a new commit snapshot
 
 
-
 ### BRANCH & MERGE
 
 Isolating work in branches, changing context, and integrating changes
