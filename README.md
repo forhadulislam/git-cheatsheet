@@ -140,8 +140,9 @@ fetch and merge any commits from the tracking remote branch
 
 ### History
 
+
+	git diff HEAD origin/master	
 To view the committed files you have not pushed yet
-	git diff HEAD origin/master
 	
 
 ### REWRITE HISTORY
