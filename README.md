@@ -138,7 +138,11 @@ Transmit local branch commits to the remote repository branch
 	git pull
 fetch and merge any commits from the tracking remote branch
 
+### History
 
+To view the committed files you have not pushed yet
+	git diff HEAD origin/master
+	
 
 ### REWRITE HISTORY
 
@@ -170,8 +174,9 @@ write working from top of stash stack
 discard the changes from top of stash stack
 
 
-
 ### Reset
 
     git fetch --all  
     git reset --hard origin/master
+    
+    
