@@ -71,6 +71,10 @@ merge the specified branch’s history into the current one
 	git log
 show all commits in the current branch’s history
 
+	git branch -D `git branch --list 'op*'`
+delete all branches with the name starting with `op` keyword
+	
+
 
 ### INSPECT & COMPARE
 
