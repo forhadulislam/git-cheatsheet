@@ -184,4 +184,6 @@ discard the changes from top of stash stack
     git fetch --all  
     git reset --hard origin/master
     
-    
+## Bring file(s) from another branch
+
+    git checkout anotherBranch test/success/file.yaml test/failure/file.yaml
